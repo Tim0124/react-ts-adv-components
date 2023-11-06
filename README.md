@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Advanced React&TypeScript
 
 ### Practice
 - 使用 ComponentPropsWithoutRef
@@ -7,3 +7,4 @@
 - 使用泛型建構
 - 使用 unknown 和 as 型別轉換
 - 使用 useImperativeHandle Hook
+- 使用Context傳遞props

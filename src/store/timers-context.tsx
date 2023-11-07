@@ -7,9 +7,10 @@ type Timer = {
 
 type TimerState = {
   isRunning: boolean
-  timers: Timer[]
+  timers: Timer[] //timers引用Timer的型別，會一個陣列
 }
 
+//ContextValue的型別是TimerState和一個物件，物件裡面有三個函式
 type TimersContextValue = TimerState & {
   addTimer: (timerDate: Timer) => void
   startTimer: () => void

@@ -8,3 +8,4 @@
 - 使用 unknown 和 as 型別轉換
 - 使用 useImperativeHandle Hook
 - 使用Context傳遞props
+- 使用useReducer管理狀態

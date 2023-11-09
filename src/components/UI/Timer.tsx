@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Container from "./Container";
 import { useTimersContext, type Timer as TimerProps } from "../../store/timers-context.tsx";
 
+//該函式傳入了執行名稱與時間，顯示出剩餘時間條，並根據isRunning判斷可以按暫停跟開始
 export default function Timer ({name, duration}:TimerProps) {
   const [remainingTime, setRemainingTime ] = useState(duration * 1000)
   const interval = useRef<number | null>(null)

@@ -9,3 +9,4 @@
 - 使用 useImperativeHandle Hook
 - 使用Context傳遞props
 - 使用useReducer管理狀態
+- 使用useEffect處理時間暫停或開始
